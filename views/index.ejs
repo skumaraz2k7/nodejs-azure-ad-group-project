@@ -1,0 +1,28 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Azure AD Group</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Azure AD Group</h1>
+        <form action="/submit" method="post">
+            <label for="adGroupName">AD Group Name:</label>
+            <input type="text" id="adGroupName" name="adGroupName" required>
+            <br>
+            <label for="groupType">Group Type:</label>
+            <select id="groupType" name="groupType" required>
+                <option value="Security">Security</option>
+                <option value="Others">Others</option>
+            </select>
+            <br>
+            <button type="submit">Create Group</button>
+        </form>
+    </div>
+</body>
+</html>
