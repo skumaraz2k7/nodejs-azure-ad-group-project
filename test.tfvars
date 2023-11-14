@@ -1,2 +1,2 @@
-adGroupName: testinggroup-with-connection-string
+adGroupName: test-githubaction-ad-grp
 groupType: Security
