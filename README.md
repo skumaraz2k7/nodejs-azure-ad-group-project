@@ -8,7 +8,7 @@ This is a simple Node.js project that allows you to fill a basic form and submit
 
 - Node.js installed on your machine. You can download it from [https://nodejs.org/](https://nodejs.org/).
 - An Azure Storage Account. If you don't have one, you can create it in the [Azure Portal](https://portal.azure.com/).
-- Rename the `.env.example` file to `.env` and replace `your_actual_connection_string` with your Azure Storage Account connection string.
+- Update file `.env` and replace `AZURE_STORAGE_CONNECTION_STRING` with your Azure Storage Account connection string.
 
 ### Installation
 
