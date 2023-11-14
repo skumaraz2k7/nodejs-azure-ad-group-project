@@ -1,6 +1,6 @@
-# Node.js Azure AD Group Creation Project
+# File upload Azure Storage Blob using Node JS Application
 
-This is a simple Node.js project that allows you to create an Azure AD Group and store the group details in a YAML file. The YAML file is then uploaded to an Azure Storage Account container.
+This is a simple Node.js project that allows you to fill a basic form and submit. On Submit action input variables are processed and stored as a Yaml file in an Azure Blob Storage.
 
 ## Getting Started
 
